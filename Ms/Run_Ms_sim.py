@@ -54,12 +54,4 @@ for epoch in range(EPOCH):
     print("train:", cc_train)
     print("test:", cc_test)
 
-torch.save(net, r'E:\code\code\Ms\Mssourcemodel.pth')
-
-plt.scatter(true_test, pred_test)
-plt.xlabel('Ms simulation value')
-plt.ylabel('Ms prediction value')
-plt.grid(b=True)
-plt.plot([0, 1], [0, 1], "k:")
-plt.show()
-
+torch.save(net, PATH)
