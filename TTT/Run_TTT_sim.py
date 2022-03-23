@@ -53,4 +53,4 @@ for epoch in range(EPOCH):
     print("test：", cc_test)
     print()
 
-torch.save(net, r'E:\code\code\TTT\TTTsourcemodel.pth')
+torch.save(net, PATH)
